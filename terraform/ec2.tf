@@ -1,3 +1,4 @@
+
 data "aws_ami" "amazon_linux" {
   most_recent = true
   owners      = ["amazon"]
@@ -15,12 +16,12 @@ resource "aws_instance" "web" {
   iam_instance_profile   = aws_iam_instance_profile.ec2_profile.name
 
   user_data = <<-EOF
-             #!/bin/bash
+              #!/bin/bash
               yum update -y
               yum install -y httpd git
               systemctl start httpd
               systemctl enable httpd
-              
+
               cd /var/www/html
               rm -rf *
               git clone https://github.com/Muskaan-Tandel-824/Automated-EC2-Web-Deployment.git .
