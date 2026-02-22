@@ -27,7 +27,7 @@ The objective of this project is to implement DevOps practices by automating inf
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 project-root/
 │
 ├── terraform/
