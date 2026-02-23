@@ -27,19 +27,22 @@ The objective of this project is to implement DevOps practices by automating inf
 
 ---
 
-📂 Project Structure
-project-root/
-│
-├── terraform/
-│ ├── main.tf
-│ ├── variables.tf
-│ ├── outputs.tf
-│
-├── app/
-│ └── index.html
-│
-└── Jenkinsfile
-
+    Developer
+        |
+        v
+    GitHub Repository
+        |
+        v
+    Jenkins Pipeline
+        |
+        v
+    Terraform
+        |
+        v
+    AWS EC2 Instance
+        |
+        v
+ Deployed Web Application
 
 
 
