@@ -15,17 +15,7 @@ The objective of this project is to implement DevOps practices by automating inf
 4. Terraform provisions or updates AWS EC2 infrastructure.
 5. Web application is automatically deployed to the EC2 instance.
 
----
-
-## 🛠️ Technologies Used
-
-- AWS EC2
-- Terraform
-- Jenkins
-- Git & GitHub
-- Linux (Amazon Linux 3)
-
----
+ ---
 
     Developer
         |
@@ -43,8 +33,15 @@ The objective of this project is to implement DevOps practices by automating inf
         |
         v
  Deployed Web Application
+---
 
+## 🛠️ Technologies Used
 
+- AWS EC2
+- Terraform
+- Jenkins
+- Git & GitHub
+- Linux (Amazon Linux 3)
 
 ---
 
