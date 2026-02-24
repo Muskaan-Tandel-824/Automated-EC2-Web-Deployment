@@ -92,3 +92,6 @@ Reduced manual deployment effort by 100% by automating infrastructure provisioni
 Muskan Tandel  
 Final Year Computer Engineering Student  
 Aspiring Cloud & DevOps Engineer
+you can connect with me through linkedin
+https://www.linkedin.com/in/muskaan-tandel-b59bb8343/
+
