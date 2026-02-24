@@ -1,6 +1,6 @@
  EC2 Web App CI/CD using Terraform & Jenkins
 
- Project Overview
+ # Project Overview
 This project demonstrates an automated CI/CD pipeline for deploying a web application on AWS EC2 using Infrastructure as Code (IaC). The infrastructure is provisioned using Terraform, and deployment automation is handled through Jenkins.
 
 The objective of this project is to implement DevOps practices by automating infrastructure provisioning and application deployment in a cloud environment.
@@ -84,12 +84,11 @@ Reduced manual deployment effort by 100% by automating infrastructure provisioni
 - Jenkins pipeline automation
 - Terraform state and configuration management
 - CI/CD integration with GitHub
-
 ---
 
 ## 👩‍💻 Author
 
-Muskan Tandel  
+Muskan Tandel
 Final Year Computer Engineering Student  
 Aspiring Cloud & DevOps Engineer
 you can connect with me through linkedin
