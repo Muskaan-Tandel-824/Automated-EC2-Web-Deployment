@@ -68,7 +68,7 @@ Reduced manual deployment effort by 100% by automating infrastructure provisioni
 
 ---
 # Result :
-CPU usage is monitored in real time with OK/WARNING/CRITICAL states.
+Automated deployment of website which is on github safely deploy on ec2 using terraform and jenkins.
 
 ##ScreenShots :
 ![AWS-Console](app/live-web.png)
