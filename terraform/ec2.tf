@@ -23,11 +23,15 @@ resource "aws_instance" "web" {
                 systemctl enable httpd
                 
                 cd /var/www/html
-                rm -rf *
+
+                if [ -d "Automated-EC2-Web-Deployment" ]; then
+                  cd Automated-EC2-Web-Deployment
+                  git pull
+                else
+                  git clone https://github.com/Muskaan-Tandel-824/Automated-EC2-Web-Deployment.git
+                fi
                 
-                git clone https://github.com/Muskaan-Tandel-824/Automated-EC2-Web-Deployment.git repo
-                cp repo/app/index.html .
-                rm -rf repo
+                cp Automated-EC2-Web-Deployment/app/index.html /var/www/html/
               EOF
 
   tags = {
