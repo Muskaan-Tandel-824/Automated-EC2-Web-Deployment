@@ -71,7 +71,7 @@ Reduced manual deployment effort by 100% by automating infrastructure provisioni
 CPU usage is monitored in real time with OK/WARNING/CRITICAL states.
 
 ##ScreenShots :
-![AWS-Console](Screenshot 2026-02-25 164722)
+![AWS-Console]()
 
 ## 🎯 Key Features
 
