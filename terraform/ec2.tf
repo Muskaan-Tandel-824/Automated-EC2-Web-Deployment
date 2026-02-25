@@ -25,7 +25,8 @@ resource "aws_instance" "web" {
               cd /var/www/html
               rm -rf *
               git clone https://github.com/Muskaan-Tandel-824/Automated-EC2-Web-Deployment.git .
-
+              cp repo/app/index.html .
+              rm -rf repo
               EOF
 
   tags = {
