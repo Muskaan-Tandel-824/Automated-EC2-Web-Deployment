@@ -17,16 +17,17 @@ resource "aws_instance" "web" {
 
   user_data = <<-EOF
               #!/bin/bash
-              yum update -y
-              yum install -y httpd git
-              systemctl start httpd
-              systemctl enable httpd
-
-              cd /var/www/html
-              rm -rf *
-              git clone https://github.com/Muskaan-Tandel-824/Automated-EC2-Web-Deployment.git .
-              cp repo/app/index.html .
-              rm -rf repo
+                yum update -y
+                yum install -y httpd git
+                systemctl start httpd
+                systemctl enable httpd
+                
+                cd /var/www/html
+                rm -rf *
+                
+                git clone https://github.com/Muskaan-Tandel-824/Automated-EC2-Web-Deployment.git repo
+                cp repo/app/index.html .
+                rm -rf repo
               EOF
 
   tags = {
