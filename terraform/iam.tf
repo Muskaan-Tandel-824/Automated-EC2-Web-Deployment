@@ -1,5 +1,5 @@
 resource "aws_iam_role" "ec2_role" {
-  name = "terraform-ec2-role1"
+  name = "terraform-ec2-profile-1"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
