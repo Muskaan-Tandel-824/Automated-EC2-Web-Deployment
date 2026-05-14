@@ -78,7 +78,7 @@ Automated deployment of website which is on github safely deploy on ec2 using te
 - Infrastructure as Code using Terraform
 - Automated CI/CD pipeline using Jenkins
 - Cloud-based deployment on AWS EC2
-- Fully automated web application deployment
+- Fully automated web application deployement
 
 ---
 
