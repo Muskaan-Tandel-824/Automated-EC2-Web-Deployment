@@ -37,7 +37,7 @@ Reduced manual deployment effort by 100% by automating infrastructure provisioni
 
 ## 🛠️ Technologies Used
 
-- AWS EC2
+- AWS EC2 (server)
 - Terraform
 - Jenkins
 - Git & GitHub
